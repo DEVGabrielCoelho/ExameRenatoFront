@@ -1,0 +1,25 @@
+.navlink-no-effect {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .brand-custom {
+    text-align: center;
+  }
+
+  .brand-custom .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .brand-custom .navbar-nav {
+    text-align: center;
+  }
+
+  .brand-custom .nav-link {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
