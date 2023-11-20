@@ -48,7 +48,6 @@ export const OrderProvider = ({ children }) => {
     try {
       await axios.delete(`${urlBack}pedidos`, { data: { id: pedidoId } });
       fetchPedidos();
-      // Realiza alguma ação após a exclusão, se necessário
     } catch (error) {
       console.error("Erro ao deletar pedido:", error);
     }

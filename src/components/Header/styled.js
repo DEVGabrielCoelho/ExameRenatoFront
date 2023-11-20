@@ -3,7 +3,6 @@ import { Navbar } from "react-bootstrap";
 
 export const StyledNavbar = styled(Navbar)`
   @media (max-width: 767px) {
-    /* Estilos para telas menores que 768px */
     .brand-custom {
       text-align: center;
     }
